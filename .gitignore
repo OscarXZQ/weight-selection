@@ -1,0 +1,6 @@
+__pycache__
+weight_selection.pth
+data/
+scripts.sh
+output/
+.ipynb_checkpoints

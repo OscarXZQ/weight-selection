@@ -69,22 +69,6 @@ def build_dataset(is_train, args, transform_train=None):
                                      download=True,
                                      transform=transform)
         nb_classes = 101
-    elif args.data_set == "inaturalist19":
-        dataset = datasets.INaturalist(root=args.data_path,
-                                     version='2019',
-                                     download=False,
-                                     transform=transform)
-        nb_classes = 1010
-    elif args.data_set == "Places365":
-        dataset = datasets.Places365(root=args.data_path,
-                                     download=True,
-                                     transform=transform)
-        nb_classes = 365
-    elif args.data_set == "image_folder":
-        root = args.data_path if is_train else args.eval_data_path
-        dataset = ImageFolder(root, transform=transform)
-        nb_classes = args.nb_classes
-        assert len(dataset.class_to_idx) == nb_classes
     else:
         raise NotImplementedError()
     args.nb_classes = nb_classes

@@ -130,8 +130,8 @@ def get_args_parser():
                         help='How to apply mixup/cutmix params. Per "batch", "pair", or "elem"')
 
     # * Finetuning params
-    parser.add_argument('--finetune', default='',
-                        help='finetune from checkpoint')
+    parser.add_argument('--initialize', default='',
+                        help='initialize from a model file')
     parser.add_argument('--head_init_scale', default=1.0, type=float,
                         help='classifier head initial scale, typically adjusted in fine-tuning')
     parser.add_argument('--model_key', default='model|module', type=str,
@@ -271,14 +271,14 @@ def main(args):
             label_smoothing=args.smoothing, num_classes=args.nb_classes)
 
     model = utils.build_model(args)
-    if args.finetune:
-        if args.finetune.startswith('https'):
+    if args.initialize:
+        if args.initialize.startswith('https'):
             checkpoint = torch.hub.load_state_dict_from_url(
-                args.finetune, map_location='cpu', check_hash=True)
+                args.initialize, map_location='cpu', check_hash=True)
         else:
-            checkpoint = torch.load(args.finetune, map_location='cpu')
+            checkpoint = torch.load(args.initialize, map_location='cpu')
 
-        print("Load ckpt from %s" % args.finetune)
+        print("Load initialization from %s" % args.initialize)
         checkpoint_model = None
         for model_key in args.model_key.split('|'):
             if model_key in checkpoint:

@@ -2,7 +2,7 @@
 
 Official code release for **Initializing Models with Larger Ones**
 
-> [Initializing Models with Larger Ones](TODO)
+> [Initializing Models with Larger Ones](https://arxiv.org/abs/2311.18823)
 > <br> [Zhiqiu Xu](https://oscarxzq.github.io), Yanjie Chen, [Kirill Vishniakov](https://kirill-vishniakov.github.io/), [Yida Yin](https://davidyyd.github.io/), [Zhiqiang Shen](https://zhiqiangshen.com/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Lingjie Liu](https://lingjie0206.github.io), [Zhuang Liu](https://liuzhuang13.github.io)
 > <br> University of Pennsylvania, UC Berkeley, MBZUAI, and Meta AI Research<br>
 
@@ -110,6 +110,6 @@ If you find this repository helpful, please consider citing
       title={Initializing Models with Larger Ones}, 
       author={Zhiqiu Xu and Yanjie Chen and Kirill Vishniakov and Yida Yin and Zhiqiang Shen and Trevor Darrell and Lingjie Liu and Zhuang Liu},
       year={2023},
-      journal={arXiv preprint arXiv:TOADD},
+      journal={arXiv preprint arXiv:2311.18823},
 }
 ```

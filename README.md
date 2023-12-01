@@ -3,7 +3,7 @@
 Official code release for **Initializing Models with Larger Ones**
 
 > [Initializing Models with Larger Ones](https://arxiv.org/abs/2311.18823)
-> <br> [Zhiqiu Xu](https://oscarxzq.github.io), [Yanjie Chen](https://www.linkedin.com/in/yanjie-chen-69b914230/), [Kirill Vishniakov](https://kirill-vishniakov.github.io/), [Yida Yin](https://davidyyd.github.io/), [Zhiqiang Shen](https://zhiqiangshen.com/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Lingjie Liu](https://lingjie0206.github.io), [Zhuang Liu](https://liuzhuang13.github.io)
+> <br> [Zhiqiu Xu](https://oscarxzq.github.io), [Yanjie Chen](https://www.linkedin.com/in/yanjie-chen-69b914230/), [Kirill Vishniakov](https://kirill-vish.github.io/), [Yida Yin](https://davidyyd.github.io/), [Zhiqiang Shen](https://zhiqiangshen.com/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Lingjie Liu](https://lingjie0206.github.io), [Zhuang Liu](https://liuzhuang13.github.io)
 > <br> University of Pennsylvania, UC Berkeley, MBZUAI, and Meta AI Research<br>
 
 <p align="center">

@@ -2,7 +2,7 @@
 
 Official code release for **Initializing Models with Larger Ones**
 
-> [Initializing Models with Larger Ones](https://arxiv.org/abs/2311.18823)
+> [Initializing Models with Larger Ones](https://arxiv.org/abs/2311.18823), ICLR 2024 *(**Spotlight**)*
 > <br> [Zhiqiu Xu](https://oscarxzq.github.io), [Yanjie Chen](https://www.linkedin.com/in/yanjie-chen-69b914230/), [Kirill Vishniakov](https://kirill-vish.github.io/), [Yida Yin](https://davidyyd.github.io/), [Zhiqiang Shen](https://zhiqiangshen.com/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Lingjie Liu](https://lingjie0206.github.io), [Zhuang Liu](https://liuzhuang13.github.io)
 > <br> University of Pennsylvania, UC Berkeley, MBZUAI, and Meta AI Research<br>
 
@@ -106,10 +106,10 @@ This repository is built using the [timm](https://github.com/rwightman/pytorch-i
 ## Citation
 If you find this repository helpful, please consider citing
 ```
-@article{xu2023initializing,
+@inproceedings{xu2024initializing,
       title={Initializing Models with Larger Ones}, 
       author={Zhiqiu Xu and Yanjie Chen and Kirill Vishniakov and Yida Yin and Zhiqiang Shen and Trevor Darrell and Lingjie Liu and Zhuang Liu},
-      year={2023},
-      journal={arXiv preprint arXiv:2311.18823},
+      year={2024},
+      booktitle={International Conference on Learning Representations (ICLR)},
 }
 ```

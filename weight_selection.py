@@ -15,7 +15,7 @@ def uniform_element_selection(wt, s_shape):
             step = wt.shape[dim] // s_shape[dim]
             indices = torch.arange(s_shape[dim]) * step
         else:
-            indices = torch.round(torch.linspace(0, wt.shape[dim], s_shape[dim]))
+            indices = torch.round(torch.linspace(0, wt.shape[dim]-1, s_shape[dim])).long()
         ws = torch.index_select(ws, dim, indices)
     assert ws.shape == s_shape
     return ws
